@@ -34,6 +34,9 @@
 		0ABC376323E122CD004CA895 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC376223E122CD004CA895 /* main.m */; };
 		0ABC376D23E122CE004CA895 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC376C23E122CE004CA895 /* ____Tests.m */; };
 		0ABC377823E122CE004CA895 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC377723E122CE004CA895 /* ____UITests.m */; };
+		0ABC378723E30532004CA895 /* JHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC378623E30531004CA895 /* JHPerson.m */; };
+		0ABC378A23ED680E004CA895 /* JHStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC378923ED680D004CA895 /* JHStudent.m */; };
+		0ABC378E23F42653004CA895 /* JHAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC378D23F42653004CA895 /* JHAnimal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +139,13 @@
 		0ABC377323E122CE004CA895 /* 算法基础UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "算法基础UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ABC377723E122CE004CA895 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		0ABC377923E122CE004CA895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ABC378323E13F2E004CA895 /* main-arm64.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "main-arm64.cpp"; sourceTree = "<group>"; };
+		0ABC378523E30531004CA895 /* JHPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHPerson.h; sourceTree = "<group>"; };
+		0ABC378623E30531004CA895 /* JHPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHPerson.m; sourceTree = "<group>"; };
+		0ABC378823ED680D004CA895 /* JHStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHStudent.h; sourceTree = "<group>"; };
+		0ABC378923ED680D004CA895 /* JHStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHStudent.m; sourceTree = "<group>"; };
+		0ABC378C23F42653004CA895 /* JHAnimal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHAnimal.h; sourceTree = "<group>"; };
+		0ABC378D23F42653004CA895 /* JHAnimal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHAnimal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,11 +292,18 @@
 				0ABC371B23E12299004CA895 /* SceneDelegate.m */,
 				0ABC371D23E12299004CA895 /* ViewController.h */,
 				0ABC371E23E12299004CA895 /* ViewController.m */,
+				0ABC378523E30531004CA895 /* JHPerson.h */,
+				0ABC378C23F42653004CA895 /* JHAnimal.h */,
+				0ABC378D23F42653004CA895 /* JHAnimal.m */,
+				0ABC378623E30531004CA895 /* JHPerson.m */,
+				0ABC378823ED680D004CA895 /* JHStudent.h */,
+				0ABC378923ED680D004CA895 /* JHStudent.m */,
 				0ABC372023E12299004CA895 /* Main.storyboard */,
 				0ABC372323E1229B004CA895 /* Assets.xcassets */,
 				0ABC372523E1229B004CA895 /* LaunchScreen.storyboard */,
 				0ABC372823E1229B004CA895 /* Info.plist */,
 				0ABC372923E1229B004CA895 /* main.m */,
+				0ABC378323E13F2E004CA895 /* main-arm64.cpp */,
 			);
 			path = "Objc底层";
 			sourceTree = "<group>";
@@ -685,7 +702,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ABC371F23E12299004CA895 /* ViewController.m in Sources */,
+				0ABC378723E30532004CA895 /* JHPerson.m in Sources */,
+				0ABC378E23F42653004CA895 /* JHAnimal.m in Sources */,
 				0ABC371923E12299004CA895 /* AppDelegate.m in Sources */,
+				0ABC378A23ED680E004CA895 /* JHStudent.m in Sources */,
 				0ABC372A23E1229B004CA895 /* main.m in Sources */,
 				0ABC371C23E12299004CA895 /* SceneDelegate.m in Sources */,
 			);
