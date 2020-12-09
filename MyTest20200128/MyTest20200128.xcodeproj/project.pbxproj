@@ -37,6 +37,7 @@
 		0ABC378723E30532004CA895 /* JHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC378623E30531004CA895 /* JHPerson.m */; };
 		0ABC378A23ED680E004CA895 /* JHStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC378923ED680D004CA895 /* JHStudent.m */; };
 		0ABC378E23F42653004CA895 /* JHAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC378D23F42653004CA895 /* JHAnimal.m */; };
+		4CB143CB2580DBF7006D8D37 /* JHArrayTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB143CA2580DBF7006D8D37 /* JHArrayTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,6 +147,8 @@
 		0ABC378923ED680D004CA895 /* JHStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHStudent.m; sourceTree = "<group>"; };
 		0ABC378C23F42653004CA895 /* JHAnimal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHAnimal.h; sourceTree = "<group>"; };
 		0ABC378D23F42653004CA895 /* JHAnimal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHAnimal.m; sourceTree = "<group>"; };
+		4CB143C92580DBF7006D8D37 /* JHArrayTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHArrayTool.h; sourceTree = "<group>"; };
+		4CB143CA2580DBF7006D8D37 /* JHArrayTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHArrayTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -329,6 +332,7 @@
 		0ABC374F23E122CD004CA895 /* 算法基础 */ = {
 			isa = PBXGroup;
 			children = (
+				4CB143C82580DBCB006D8D37 /* 数组排序 */,
 				0ABC375023E122CD004CA895 /* AppDelegate.h */,
 				0ABC375123E122CD004CA895 /* AppDelegate.m */,
 				0ABC375323E122CD004CA895 /* SceneDelegate.h */,
@@ -360,6 +364,15 @@
 				0ABC377923E122CE004CA895 /* Info.plist */,
 			);
 			path = "算法基础UITests";
+			sourceTree = "<group>";
+		};
+		4CB143C82580DBCB006D8D37 /* 数组排序 */ = {
+			isa = PBXGroup;
+			children = (
+				4CB143C92580DBF7006D8D37 /* JHArrayTool.h */,
+				4CB143CA2580DBF7006D8D37 /* JHArrayTool.m */,
+			);
+			path = "数组排序";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -733,6 +746,7 @@
 			files = (
 				0ABC375823E122CD004CA895 /* ViewController.m in Sources */,
 				0ABC375223E122CD004CA895 /* AppDelegate.m in Sources */,
+				4CB143CB2580DBF7006D8D37 /* JHArrayTool.m in Sources */,
 				0ABC376323E122CD004CA895 /* main.m in Sources */,
 				0ABC375523E122CD004CA895 /* SceneDelegate.m in Sources */,
 			);
